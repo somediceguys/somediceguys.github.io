@@ -1,2 +1,3 @@
 # somediceguys.github.io
-gatsby based website for the somediceguys podcast page
+
+somedice guys dnd app splashpage
