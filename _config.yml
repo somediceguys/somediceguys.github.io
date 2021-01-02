@@ -9,10 +9,11 @@
 #
 app:
   name: SomeDiceGuys # REQUIRED - Enter your app name
-  ios_id: 912209541 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
-  android_id: 912209541 # Optional - Enter Android app id like: com.example.app
+  ios_id: 9122095400 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
+  android_id: 9122095400 # Optional - Enter Android app id like: com.example.app
 
-  icon: # Leave blank to auto-magically populate
+  icon: images/diceguys-icon-512.png
+  # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
@@ -43,7 +44,7 @@ app:
 # Marketing
 #
 marketing_header: SomeDiceGuys Podcast App # Optional
-marketing_desc: Stay up to date with our latest podcast episode, learn some new things from the Dice Guys as we push through our adventures in the "What are we even doing Dnd Podcast". Download the app from the IOS Market or Google Play store today. 
+marketing_desc: Stay up to date with our latest podcast episode, learn some new things from the Dice Guys as we push through our adventures in the "What are we even doing DND Podcast". Download the app from the IOS Market or Google Play store today.
 
 #
 # Social Links
