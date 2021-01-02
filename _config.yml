@@ -41,11 +41,11 @@ app:
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-social_image.png
   # 512px or greater, square or width = 2X height
-#
-# Marketing
-#
-marketing_header: SomeDiceGuys Podcast App # Optional
-marketing_desc: Stay up to date with our latest podcast episode, learn some new things from the Dice Guys as we push through our adventures in the "What are we even doing DND Podcast". Download the app from the IOS Market or Google Play store today.
+  #
+  # Marketing
+  #
+  marketing_header: SomeDiceGuys Podcast App # Optional
+  marketing_desc: Stay up to date with our latest podcast episode, learn some new things from the Dice Guys as we push through our adventures in the "What are we even doing DND Podcast". Download the app from the IOS Market or Google Play store today.
 
 #
 # Social Links
@@ -62,7 +62,7 @@ social-links:
   youtube: # channel/<your_long_string> or <user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-#
+#QC
 # Enable/Disable Features & Page Elements
 #
 enable:
@@ -72,12 +72,12 @@ enable:
 #
 # Device
 #
- Available devices:
- * iphone-se-silver-vertical
- * iphone-se-space-gray-vertical
- * ipod-touch-blue-vertical
- * android-black-vertical
-#
+Available devices:
+ iphone-se-silver-vertical
+ iphone-se-space-gray-vertical
+ ipod-touch-blue-vertical
+ android-black-vertical
+
 device: iphone-se-space-gray-vertical # REQUIRED
 
 #
