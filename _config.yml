@@ -23,7 +23,8 @@ app:
   # e.g. images/app-favicon.png - can be .ico or .png
   # 16px or greater, square
 
-  screenshot: # Leave blank to auto-magically populate
+  screenshot: images/podcast-app-screen-640x1136.png
+    # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-screen-640x1136.png
   # 640x1136px
@@ -33,8 +34,8 @@ app:
   # e.g. images/app-preview.mp4
   # 640x1136px
 
-  #app_twitter: # uncomment if the app has a twitter account "@my-awesome-app"
-  #creator_twitter: # uncomment if creator has a twitter account "@awesome-dev"
+  app_twitter: @somediceguys # uncomment if the app has a twitter account "@my-awesome-app"
+  creator_twitter: @techgameteddy # uncomment if creator has a twitter account "@awesome-dev"
   #social_image: # uncomment and add an image - defaults to icon
   # This will show up when your url is shared on sites like facebook and twitter
   # To update use path relative to project root with no leading slash:
@@ -71,18 +72,19 @@ enable:
 #
 # Device
 #
-# Available devices:
-# * iphone-se-silver-vertical
-# * iphone-se-space-gray-vertical
-# * ipod-touch-blue-vertical
+ Available devices:
+ * iphone-se-silver-vertical
+ * iphone-se-space-gray-vertical
+ * ipod-touch-blue-vertical
+ * android-black-vertical
 #
-device: iphone-se-silver-vertical # REQUIRED
+device: iphone-se-space-gray-vertical # REQUIRED
 
 #
 # Theme Settings
 #
 background_color: "#989898" # Optional
-background_image: /images/backgrounds/58-usersthink-stock-image-web.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
+background_image: images/backgrounds/podcast-background-stock-image.png # Optional - Use Relative path e.g. images/backgrounds/image.jpg
 text_color: white # Optional
 link_color: # Optional
 social_link_color: white # Optional

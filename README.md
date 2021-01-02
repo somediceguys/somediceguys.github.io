@@ -5,7 +5,7 @@ somedice guys dnd app splashpage
 
 ## [somediceguys.github.io](https://somediceguys.github.io/)
 
-## [somediceguysdnd.com](somediceguysdnd.com)
+## [somediceguysdnd.com](https://somediceguysdnd.com)
 
 
 
