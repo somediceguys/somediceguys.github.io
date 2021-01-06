@@ -1,8 +1,4 @@
-# Jekyll podcast template
-
-As the name implies, this is a Jekyll template for creating a podcast site.
-
-It is based on the standard Jekyll template and lifted many ideas from [Kinoskopie.de](https://github.com/lnwdr/kinoskopie.de)—thanks for sharing!
+# Somediceguys Podcast site 
 
 ## What’s new
 **Apr. 24, 2018:**
