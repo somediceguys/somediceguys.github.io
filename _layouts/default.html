@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en-us">
-{% include head.html %}
+<html>
+
+  {% include head.html %}
+
   <body>
 
-    {{ content }}
+    {% include header.html %}
 
-    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
-    {% include apple.html %}
-    {% include analytics.html %}
+    <div class="page-content">
+      <div class="wrapper">
+      	<h1>{{ page.title }}</h1>
+      	
+        {{ content }}
+      </div>
+    </div>
+
+{% include footer.html %}
+
   </body>
+
 </html>
