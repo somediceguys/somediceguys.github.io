@@ -1,0 +1,36 @@
+analytics-id:
+#Pages
+pages:
+  - {name: 'Episodes', url: 'episodes.html'}
+#  - {name: 'Patreon', url: '#'}
+#  - {name: 'Shop', url: '#'}
+  - {name: 'GitHub', url: 'https://github.com/somediceguys'}
+#  - {name: 'Get This Theme', url: 'https://github.com/PandaSekh/Jekyll-Podcaster'}
+
+social:
+#  - {icon: 'instagram', type: "brand", link: '#'}
+  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/ArteLettura'}
+#  - {icon: 'facebook', type: "brand", link: '#'}
+#  - {icon: 'youtube', type: "brand", link: '#'}
+  - {icon: 'envelope', type: "solid", link: 'mailto:1019studiosteam@gmail.com'}
+  - {icon: 'rss', type: "solid", link: "https://anchor.fm/s/30f31760/podcast/rss"}
+
+websites-podcast:
+  - {name: 'Apple Podcast', link: 'https://podcasts.apple.com/us/podcast/what-are-we-even-doing-a-dnd-podcast/id1528198962?uo=4'}
+  - {name: 'Spotify', link: 'https://open.spotify.com/show/6D1QeQlEtaH9OmnnxJIrMg'}
+#  - {name: 'YouTube', link: '#'}
+#  - {name: 'Android', link: '#'}
+#  - {name: 'Spreaker', link: '#'}
+  - {name: 'Google Podcast', link: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8zMGYzMTc2MC9wb2RjYXN0L3Jzcw=='}
+  - {name: 'Anchor', link: 'https://anchor.fm/what-are-we-even-doing'}
+  - {name: 'Overcast', link: 'https://overcast.fm/itunes1528198962/what-are-we-even-doing-a-dnd-podcast'}
+  - {name: 'RadioPublic', link: 'https://radiopublic.com/what-are-we-even-doing-a-dnd-pod-6nXkaE'}
+  - {name: 'Breaker', link: 'https://www.breaker.audio/what-are-we-even-doing-a-dnd-podcast'}
+  - {name: 'RSS', link: 'https://anchor.fm/s/30f31760/podcast/rss'}
+
+translate-date: true #See _includes/date.html to translate the months' name
+shownotes: true
+
+#Disqus
+disqus:
+  disqus_shortname:

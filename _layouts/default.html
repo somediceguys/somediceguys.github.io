@@ -1,13 +1,38 @@
-<!DOCTYPE html>
-<html lang="en-us">
-{% include head.html %}
-  <body>
+<!doctype html>
+<html>
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {%- include header.html -%}
+  <div class="container">
+      <div class="content ">
+        {{ content }}
+        
+      </div>
 
-    {{ content }}
+      <div class = "sidebar">
+        {%- include sidebar.html -%}
+      </div>
+   
+  </div>
 
-    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
-    {% include apple.html %}
-    {% include analytics.html %}
-  </body>
+  {%- include footer.html -%}
+
+  <ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+{%- include playerjs.html -%}
+
+</body>
 </html>

@@ -1,121 +1,56 @@
-#
-# Awesome App Landing Page Config
-#
+# Site settings
+title: "SomeDiceGuys DND"
+description: "A Homebrewed DND podcast"
+podcast-description: "What are we even doing | A DnD Podcast"
+url:  "https://somediceguysdnd.com/" # Actual base url of the website
+baseurl: "/"                    # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
+author:
+  name: "1019 Studios"
+  email: "1019studiosteam@gmail.com"
+  url: "https://somediceguysdnd.com/"
+permalink: pretty
+permalink: /:title
+keywords: [podcast, jekyll]
 
-# Be sure all REQUIRED fields are filled out!
+#Plugins
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
-#
-# General App Info
-#
-app:
-  name: SomeDiceGuys # REQUIRED - Enter your app name
-  ios_id: 9122095400 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
-  android_id: com.diceguys.app # Optional - Enter Android app id like: com.example.app
+#exclude: [_podcast.rss] #Ignore this, it will be used in case I decide to add rss feed
 
-  icon: images/diceguys-icon-512.png
-  # Leave blank to auto-magically populate
-  # To update use path relative to project root with no leading slash:
-  # e.g. images/app-icon-512.png
-  # 512px or greater, square
+#Pagination
+paginate: 8
+paginate_path: "/page-:num/"
 
-  #favicon: # uncomment if uploading own favicon
-  # To update use path relative to project root with no leading slash:
-  # e.g. images/app-favicon.png - can be .ico or .png
-  # 16px or greater, square
-
-  screenshot: images/podcast-app-screen-640x1136.png
-    # Leave blank to auto-magically populate
-  # To update use path relative to project root with no leading slash:
-  # e.g. images/app-screen-640x1136.png
-  # 640x1136px
-
-  #video: # uncomment if prefer to show a video preview in the screen instead of image
-  # To update use path relative to project root with no leading slash:
-  # e.g. images/app-preview.mp4
-  # 640x1136px
-
-  app_twitter: "@somediceguys" # uncomment if the app has a twitter account "@my-awesome-app"
-  creator_twitter: "@techgameteddy" # uncomment if creator has a twitter account "@awesome-dev"
-  #social_image: # uncomment and add an image - defaults to icon
-  # This will show up when your url is shared on sites like facebook and twitter
-  # To update use path relative to project root with no leading slash:
-  # e.g. images/app-social_image.png
-  # 512px or greater, square or width = 2X height
-  #
-  # Marketing
-  #
-marketing_header: SomeDiceGuys Podcast App # Optional
-marketing_desc: Stay up to date with our latest podcast episode, learn some new things from the Dice Guys as we push through our adventures in the "What are we even doing DND Podcast". Download the app from the IOS Market or Google Play store today.
-
-#
-# Social Links
-#
-# Includes an icon for each username you enter
-#
-social-links:
-  github:
-  facebook:
-  twitter: https://twitter.com/somediceguys
-  pinterest:
-  instagram:
-  email:
-  youtube: # channel/<your_long_string> or <user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-#QC
-# Enable/Disable Features & Page Elements
-#
-enable:
-  app_icon: true
-  smart_app_banner: true
-
-#
-# Device
-#
-Available devices:
- iphone-se-silver-vertical
- iphone-se-space-gray-vertical
- ipod-touch-blue-vertical
- android-black-vertical
-
-device: iphone-se-silver-vertical # REQUIRED
-
-#
-# Theme Settings
-#
-background_color: "#989898" # Optional
-background_image: images/backgrounds/podcast-background-stock-image.jpg # Optional - Use Relative path e.g. images/backgrounds/image.jpg
-text_color: white # Optional
-link_color: # Optional
-social_link_color: white # Optional
-download_button_background_color: "#0191FF" # Optional
-download_button_text_color: white; # Optional
-
-#
-# Site Info
-#
-# If you want specific meta info for your <head></head> tags
-#
-title: DND Podcast App # Optional - Enter your site title
-description:  # Optional - Enter your site description
-
-#
-# Google Analytics
-#
-google_analytics: # Enter your tracking code (e.g. UA-2110908-2) to activate tracking
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-# The release of Awesome App Landing Page that you're using
-version: v1.0
-
-# Set the Sass partials directory, as we're using @imports
+#Sass
 sass:
-  style: :compressed
+  style: compressed
+  sourcemap: never
 
-# Exclude these files from your production _site
-exclude:
-  - LICENSE
-  - README.md
+#SEO
+twitter:
+  username: somediceguys
+  card: summary
+facebook:
+  app_id:
+logo: /assets/img/DND_Podcast_Cover.png
+social:
+  name: 1019 Studios
+  links:
+    - https://github.com/somediceguys/
+    - https://twitter.com/somediceguys
+lang: it
+
+#Podcast Metadata. Used by the RSS Feed, which currently isn't in use. So you can avoid this
+podcast_title: SomeDiceGuys Podcast
+podcast_author: 1019 Studios
+podcast_email: 1019studiosteam@gmail.com
+podcast_subtitle: "A DnD Podcast"
+podcast_summary: "What are we even doing | A Dungeons and Dragons Podcast"
+podcast_description: "What are we even doing | A Dungeons and Dragons Podcast"
+podcast_explicit: "yes"
+podcast_type: serial
+podcast_lang: en
+podcast_launch: "2020-08-08" #Launch date of your podcast
+podcast_copyright: "&#xA9;1019 Studios"
+podcast_feed: https://anchor.fm/s/30f31760/podcast/rss
+podcast_artwork: "/assets/img/DND_Podcast_Cover.png"
